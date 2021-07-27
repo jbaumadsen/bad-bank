@@ -1,8 +1,4 @@
-function Deposit(){
-  return (
-    <h1>Deposit</h1>
-  )
-}
+
 
 function Deposit(){
   const [show, setShow]         = React.useState(true);

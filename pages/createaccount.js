@@ -1,3 +1,5 @@
+const { NavItem } = require("react-bootstrap");
+
 function CreateAccount(){
   const [show, setShow]         = React.useState(true);
   const [status, setStatus]     = React.useState('');
