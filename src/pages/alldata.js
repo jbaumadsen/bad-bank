@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { Table, Card } from 'react-bootstrap';
 import { UserContext } from '../contexts/UserContext';
+import { v4 as uuidv4 } from 'uuid';
 
 function AllData(){
   const { users } = useContext(UserContext);
@@ -18,7 +19,7 @@ function AllData(){
           <tbody>
             {users.map(user => {
               return (
-                <tr>
+                <tr key={ uuidv4() }>
                   <td>{user.name}</td>
                   <td>{user.email}</td>
                   <td>{user.password}</td>

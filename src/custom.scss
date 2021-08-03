@@ -1,0 +1,19 @@
+// change the theme
+
+$secondary: blue;
+$theme-colors: (
+  "primary": #a84343,
+  "dark": white,
+  "danger": #ff4136
+);
+
+.active {
+  color: #61dafb;
+}
+
+.nav-link.active {
+  color: #61dafb;
+}
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';

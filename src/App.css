@@ -1,67 +1,51 @@
-.App {
+/* .App {
   text-align: center;
-  background-color: #593F62;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
 
 img{
   height:300px;
 }
 
-.active{
-  color: #61dafb;
-}
-
-.card{
-  padding: 10px;
-}
-
-.btn{
+.company-name {
   font-size: 2em;
+  font-weight: bolder;
+  color: #a84343;
+  justify-content: center;
+}
+
+#root {
+  color: #282c34;
+}
+
+a {
+  font-weight: bold;
 }
 
 .space-div{
-  display: flex;
-  justify-content: space-between;
+  padding-bottom: 30px;
 }
 
-.root{
-  background-color: aqua;
+nav {
+  background-color: #39383d;
 }
-nav{
-  background-color: #5bc0de;
+
+a{
+  color: aliceblue;
 }
+
+a:hover {
+  transform: scale(1.1);
+  padding-left: 10px;
+}
+
+.dropdown-item:hover {
+  transform: scale(1);
+}
+
+.card {
+  background-color: #a2a3a3;
+}
+
+/* .nav-link{
+  color: #61dafb;
+} */
